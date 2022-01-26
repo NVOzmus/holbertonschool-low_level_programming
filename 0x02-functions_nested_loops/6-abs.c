@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * int _abs - main function
- *
+ * _abs - main function
+ *@i: main code integer
  * Return: 0 and closes
  */
 int _abs(int i)
