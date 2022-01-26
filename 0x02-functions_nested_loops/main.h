@@ -6,6 +6,6 @@
 /* prototypes */
 /* _putchar prototype */
 int _putchar(char c);
-/* print alphanet prototype */
+/* print alphabet prototype */
 int print_alphabet(void);
 #endif /* MAIN_H */
