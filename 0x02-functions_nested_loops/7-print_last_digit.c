@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * print_last_digit - main function
- * @d: function
+ * @x: function
  *
- * Return:0 
+ * Return:0
  */
 int print_last_digit(int x)
 {
