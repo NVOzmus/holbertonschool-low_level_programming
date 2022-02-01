@@ -1,18 +1,16 @@
-#include "main.h"
+#include "main."
 /**
- * print_numbers - prints number 0-9
+ * print_numbers - prints numbers
  *
  * Return: 0
  */
+
 void print_numbers(void)
 {
 	char number;
 	int count;
 
 	for (count = '0'; count <= '9'; count++)
-	{
-		if (count != '2' || count != '4')
-		{
-			_putchar(count);
-		}
+		_putchar(count);
+	return (0);
 }
