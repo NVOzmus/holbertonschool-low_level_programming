@@ -7,12 +7,13 @@
 
 void print_numbers(void)
 {
-	char number;
-	int count;
-
+	char count;
+	
 	for (count = '0'; count <= '9'; count++)
 	{
 		_putchar(count);
 	}
-	return (0);
+	{
+		_putchar('\n');
+}
 }
