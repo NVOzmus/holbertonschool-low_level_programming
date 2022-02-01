@@ -3,7 +3,7 @@
  * mul - function that multiplies two integers
  * @a: first integer checked
  * @b: second integer checked
- * Return: 0
+ * Return: product
  */
 
 int mul(int a, int b)
@@ -12,5 +12,5 @@ int mul(int a, int b)
 	{
 		product = a * b;
 	}
-		return (0);
+		return (product)
 }
