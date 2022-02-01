@@ -5,7 +5,7 @@
 * left in the year, taking leap years into account
 * @month: month in number format
 * @day: day of month
-* @year: year
+* @year: years
 * Return: void
 */
 
@@ -32,5 +32,4 @@ void print_remaining_days(int month, int day, int year)
 			printf("Remaining days: %d\n", 365 - day);
 		}
 	}
-		}
 }
