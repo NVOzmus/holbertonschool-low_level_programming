@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * print_most_numbers - prints number 0-9
  *
  * Return: void
  */
+
 void print_most_numbers(void)
 {
 	char count;
@@ -15,4 +17,4 @@ void print_most_numbers(void)
 			_putchar(count);
 		}
 }
-_putchar('\n')
+_putchar('\n');
