@@ -2,11 +2,10 @@
 /**
  * print_most_numbers - prints number 0-9
  *
- * Return: void 
+ * Return: void
  */
 void print_most_numbers(void)
 {
-	
 	char count;
 
 	for (count = '0'; count <= '9'; count++)
