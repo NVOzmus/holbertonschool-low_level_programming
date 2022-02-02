@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_rev - program starts
- * @s pointer for counting new line reverse
+ * @s: pointer for counting new line reverse
  *
  * Return: 0
  */
