@@ -16,10 +16,10 @@ void rev_string(char *s)
 	{
 		continue;
 	}
-	for (string = length -1; string >= length / 2; string--)
+	for (string = length - 1; string >= length / 2; string--)
 	{
 		reverse = s[string];
-		s[string] = s[length - string -1];
+		s[string] = s[length - string - 1];
 		s[length - string - 1] = reverse;
 	}
 }
