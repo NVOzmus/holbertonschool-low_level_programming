@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_array = program startup
+ * print_array - program startup
  * @a: first function
  * @n: second function
  *
