@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  * reverse_array - main function
- * @a: 
- * @n:
+ * @a: variable
+ * @n: variable
  *
  * Return: 0
  */
