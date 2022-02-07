@@ -2,8 +2,9 @@
 
 /**
  * *_strncpy - main function
- * @dest: 
- * @src
+ * @dest:
+ * @src:
+ * @n:
  * Return: 0
  */
 
@@ -11,7 +12,6 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
-	
 	/* measures the length from src*/
 	for (i = 0; i < n; i++)
 	{
