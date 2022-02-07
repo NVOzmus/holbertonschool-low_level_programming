@@ -2,8 +2,9 @@
 
 /**
  * *_strncat - main function
- * @dest:
- * @src
+ * @dest: variable
+ * @src: variable
+ * @n: variable
  * Return: 0
  */
 char *_strncat(char *dest, char *src, int n)
