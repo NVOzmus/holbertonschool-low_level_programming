@@ -2,9 +2,8 @@
 
 /**
  * *_strcat - main function
- * @dest:
- * @src:
- *
+ * @dest: variable
+ * @src: variable
  * Return: 0
  */
 
@@ -21,7 +20,7 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[destlen + i] = src[i];
 	}
-		dest[dest_len + i] = '\0';
+		dest[destlen + i] = '\0';
 	/* Set the null character at the end of dest */
 
 	return (dest);
