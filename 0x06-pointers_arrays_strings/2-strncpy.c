@@ -2,9 +2,9 @@
 
 /**
  * *_strncpy - main function
- * @dest:
- * @src:
- * @n:
+ * @dest: variable
+ * @src: variable
+ * @n: variable
  * Return: 0
  */
 
