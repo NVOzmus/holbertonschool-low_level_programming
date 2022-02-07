@@ -3,7 +3,7 @@
 /**
  * *_strcat - main function
  * @dest:
- * @src: 
+ * @src:
  *
  * Return: 0
  */
@@ -12,11 +12,10 @@ char *_strcat(char *dest, char *src)
 {
 	int i;
 	int destlen;
-	
-	/* Gets the length of dest */
-	for ( destlen = 0;  dest[destlen] != '\0'; destlen++)
-	{}
 
+	/* Gets the length of dest */
+	for (destlen = 0;  dest[destlen] != '\0'; destlen++)
+	{}
 	/* sets all of src at the end of dest */
 	for (i = 0 ; src[i] != '\0'; i++)
 	{
