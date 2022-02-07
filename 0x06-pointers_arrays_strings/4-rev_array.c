@@ -12,14 +12,10 @@ void reverse_array(int *a, int n)
 	int string;
 	char reverse;
 
-	for (n = 0; a[n] != '\0'; n++)
-	{
-		continue;
-	}
-	for (string = n - 1; string >= n / 2; n--)
+	for (string = n - 1; string >= n / 2; string--)
 	{
 		reverse = a[string];
-		a[string] = a[n - string - 1];
-		a[n - n -1] = reverse;
+		a[string] = a[n - 1 - string];
+		a[n - 1 - string] = reverse;
 	}
 }
