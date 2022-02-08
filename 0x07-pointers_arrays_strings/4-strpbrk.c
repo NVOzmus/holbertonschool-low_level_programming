@@ -12,7 +12,7 @@ char *_strpbrk(char *s, char *accept)
 	int byte;
 	int string;
 
-	for (byte = 0; *s != '\0'; string++)
+	for (byte = 0; *s != '\0'; byte++)
 	{
 		for (string = 0; accept[string] != '\0'; string++)
 		{
