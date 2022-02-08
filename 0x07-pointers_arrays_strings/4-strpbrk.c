@@ -19,7 +19,7 @@ char *_strpbrk(char *s, char *accept)
 				return (s);
 			}
 		}
-		s++
+		s++;
 	} while (*s != '\0');
 	return (0);
 }
