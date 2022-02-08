@@ -8,14 +8,20 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	while (*s && *accept)
+	const char *s = s1;
+	const char *c;
+
+	while (*s1)
 	{
-		if (*s != *accept)
+		for (c = s2; *c; c++)
 		{
-			return (0);
+			if (*s1 == *c)
+				break;
 		}
-		s++;
-		accept++;
+		if (*c == '\0')
+			break;
+		s1++;
 	}
-	return (*accept == '\0');
+
+	return s1 -s;
 }
