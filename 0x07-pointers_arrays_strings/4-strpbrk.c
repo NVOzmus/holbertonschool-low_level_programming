@@ -2,24 +2,26 @@
 /**
  * _strpbrk - main function
  * @s: first variable
- * @n: second variable
+ * @accept: second variable
  *
  * Return: 0
  */
 
 char *_strpbrk(char *s, char *accept)
 {
-	int x;
+	int byte;
+	int string;
 
-	do {
-		for (x = 0; s[x] != '\0'; x++)
+	for (byte = 0; *s != '\0'; string++)
+	{
+		for (string = 0; accept[string] != '\0'; string++)
 		{
-			if (accept[x] != '\0')
+			if (*s == accept[string])
 			{
 				return (s);
 			}
 		}
 		s++;
-	} while (*s != '\0');
-	return (0);
+	}
+	return (NULL);
 }
