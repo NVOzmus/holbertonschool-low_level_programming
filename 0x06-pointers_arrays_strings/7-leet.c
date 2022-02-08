@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * leet - primary function
- * @a: switches to l33t
+ * @a:  to l33t
  *
  * Return: 0
  */
