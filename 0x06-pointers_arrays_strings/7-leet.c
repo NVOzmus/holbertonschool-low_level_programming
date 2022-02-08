@@ -3,7 +3,7 @@
  * leet - primary function
  * @a: switches to l33t
  *
- * Return: a
+ * Return: 0
  */
 
 char *leet(char *a)
