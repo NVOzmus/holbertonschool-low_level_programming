@@ -2,7 +2,7 @@
 /**
  * _print_rev_recursion - main function
  * @s: variable being called on
- * 
+ *
  * Return: 0
  */
 
@@ -13,6 +13,6 @@ void _print_rev_recursion(char *s)
 	{
 		return;
 	}
-	_print_rev_recursion(s+1);
+	_print_rev_recursion(s + 1);
 	_putchar(*s);
 }
