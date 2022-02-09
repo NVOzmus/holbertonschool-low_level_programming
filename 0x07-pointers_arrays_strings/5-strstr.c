@@ -8,8 +8,8 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int *a;
-	int *b;
+	int a;
+	int b;
 	
 	for (a = 0; haystack[byte] != '\0'; a++)
 	{
