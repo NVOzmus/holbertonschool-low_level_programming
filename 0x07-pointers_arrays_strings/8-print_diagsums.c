@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-void print_diagsums(int *a, int size);
+void print_diagsums(int *a, int size)
 {
 	unsigned int x = 0;
 	unsigned int y = 0;
