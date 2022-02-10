@@ -5,16 +5,16 @@
  * @x: base
  * Return: _sqrt
  */
-int _sqrt(int x, int y); /*function to get the square root*/
+
 
 int _sqrt(int x, int y)
 {
-	int _sqrt = y * y;
+	int sqrt = y * y;
 
-	if (_sqrt > x)
+	if (sqrt > x)
 	return (-1);
 
-	if (_sqrt == x)
+	if (sqrt == x)
 	return (y);
 
 	return (_sqrt(x, y + 1));
