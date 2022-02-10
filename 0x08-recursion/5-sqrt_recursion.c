@@ -9,15 +9,15 @@ int _sqrt(int x, int y); /*function to get the square root*/
 
 int _sqrt(int x, int y)
 {
-	int sqrt = y * y;
+	int _sqrt = y * y;
 
-	if (sqrt > x)
-	return (y - 1);
+	if (_sqrt > x)
+	return (-1);
 
-	if (sqrt == x)
+	if (_sqrt == x)
 	return (y);
 
-	return (_sqrt(x, y * 1));
+	return (_sqrt(x, y + 1));
 }
 /**
  * _sqrt_recursion - finds square root
