@@ -8,11 +8,11 @@ int _prime_calc(int x, int num);
 
 int is_prime_number(int n)
 {
-	if (n <=1)
+	if (n <= 1)
 	{
 		return (0);
 	}
-	if (n >= 2 && n <=3)
+	if (n >= 2 && n <= 3)
 	{
 		return (1);
 	}
@@ -32,7 +32,7 @@ int _prime_calc(int x, int num)
 	{
 	return (0);
 	}
-	if (x == num /2)
+	if (x == num / 2)
 	{
 	return (1);
 	}
