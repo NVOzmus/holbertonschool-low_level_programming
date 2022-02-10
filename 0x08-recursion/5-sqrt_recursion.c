@@ -7,19 +7,15 @@
  */
 int _sqrt(int x, int y); /*function to get the square root*/
 
-int _sqrt( int x, int y)
+int _sqrt(int x, int y)
 {
 	int sqrt = y * y;
 
 	if (sqrt > x)
-	{
-		return (y-1);
-	}
+	return (y - 1);
 
 	if (sqrt == x)
-	{
-		return (y);
-	}
+	return (y);
 
 	return (_sqrt(x, y * 1));
 }
