@@ -32,7 +32,7 @@ int _prime_calc(int x, int num)
 	{
 	return (0);
 	}
-	if (x == /2)
+	if (x == num /2)
 	{
 	return (1);
 	}
