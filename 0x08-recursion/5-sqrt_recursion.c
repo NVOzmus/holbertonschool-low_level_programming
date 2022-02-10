@@ -16,6 +16,5 @@ int _sqrt_recursion(int n)
 		temp = squareroot;
 	}
 	squareroot = (n / temp + temp) / 2;
-}
-return (squareroot);
+	return (squareroot);
 }
