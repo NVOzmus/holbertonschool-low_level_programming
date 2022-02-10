@@ -1,5 +1,5 @@
 #include "main.h"
-
+int _prime_calc(int x, int num);
 /**
  * is_prime_number - main function
  * @n: int being counted
