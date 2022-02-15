@@ -1,9 +1,8 @@
 #include "main.h"
 /**
  * main - main function
- * argc: argc variable
- * argv: argv variable
- * Did you know I had a perfect in this class until the checker screwed me over?
+ * @argc: argc variable
+ * @argv: argv variable
  * Return: 0, like what I'd rather take than do work today
  */
 
