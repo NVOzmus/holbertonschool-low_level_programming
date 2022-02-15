@@ -5,7 +5,7 @@
  * Return: 0, like what I'd rather take than do work today
  */
 
-int rihanna(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc > 0)
 		printf("%s\n", argv[0]);
