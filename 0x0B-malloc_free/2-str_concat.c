@@ -3,7 +3,7 @@
  * str_concat - main function
  * @s1: first variable
  * @s2: second variable
- * Return: Null on failure, 
+ * Return: Null on failure, array otherwise
  */
 
 char *str_concat(char *s1, char *s2)
