@@ -8,7 +8,7 @@ char *_strdup(char *str)
 {
 	char *ptr;
 	unsigned int x, strlen = 0;
-	
+
 	if (str == 0)
 	{
 		return (NULL);
@@ -23,12 +23,12 @@ char *_strdup(char *str)
 
 	if (ptr == 0)
 	{
-		return (Null);
+		return (NULL);
 	}
 	for (x = 0; x < strlen; x++)
 	{
 		ptr[x] = str[x];
 	}
 	return (ptr);
-}
+
 }
