@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _calloc - main function
- * @nemb: number of elements
+ * @nmemb: number of elements
  * @size: size of the element
  * Return: pointer to memory or NULL
  */
