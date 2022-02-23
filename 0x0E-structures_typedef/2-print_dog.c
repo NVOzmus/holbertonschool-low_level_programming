@@ -3,16 +3,7 @@
  * print_dog - primary function
  * @d: dog value holder
  * Return: element, NULL, nil or nothing
- */
-
-#include "dog.h"                                                                                                 
-                                                                                                                 
-/**                                                                                                              
- * * print_dog - entry point for the function                                                                       
- * * @d: pointer to dog                                                                                             
- * * Return: void                                                                                                   
- * */                                                                                                               
-                                                                                                                 
+ */                                                                     
 void print_dog(struct dog *d)
 {
 	if (d != NULL)
