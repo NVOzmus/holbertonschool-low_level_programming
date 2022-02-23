@@ -1,17 +1,15 @@
-#include "calc.h"
+#include "3-calc.h"
 
-/*
+/**
  * op_add - addition operator
  * @a: first integer
  * @b: second integer
- * Return: result
+ * Return: sum
  */
 
 int op_add(int a, int b)
 {
-	int result = a + b;
-
-	return (result);
+	return (a + b);
 }
 
 /**
@@ -22,9 +20,7 @@ int op_add(int a, int b)
  */
 int op_sub(int a, int b)
 {
-	int difference = a - b;
-
-	return (difference);
+	return (a - b);
 }
 
 /**
@@ -36,9 +32,7 @@ int op_sub(int a, int b)
 
 int op_mul(int a, int b)
 {
-	int product = a * b;
-
-	return (product);
+	return (a * b);
 }
 
 /**
@@ -50,9 +44,12 @@ int op_mul(int a, int b)
 
 int op_div(int a, int b)
 {
-	int dividend = a / b;
-
-	return (dividend);
+	if (b <= 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	return (a / b);
 }
 
 /**
@@ -64,7 +61,10 @@ int op_div(int a, int b)
 
 int op_mod(int a, int b)
 {
-	int modulus = a % b;
-
-	return (modulus);
+	if (b <= 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	return (a % b);
 }
