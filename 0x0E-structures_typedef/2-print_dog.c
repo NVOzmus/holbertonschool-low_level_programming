@@ -3,7 +3,7 @@
  * print_dog - primary function
  * @d: dog value holder
  * Return: element, NULL, nil or nothing
- */                                                                     
+ */
 void print_dog(struct dog *d)
 {
 	if (d != NULL)
@@ -12,4 +12,4 @@ void print_dog(struct dog *d)
 		printf("Age: %f\n", d->age);
 		printf("Owner: %s\n", (d->owner == NULL ? "(nil)" : d->owner));
 	}
-} 
+}
