@@ -4,7 +4,7 @@
  * @array: measures array
  * @size: size of array
  * @cmp: cmp
- * return: i or -1
+ * Return: i or -1
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
