@@ -1,5 +1,12 @@
 #include "variadic_functions.h"
 
+/**
+ * print_numbers - main
+ * @separator: yeah
+ * @n: yeah
+ * Return: whatever
+ */
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
