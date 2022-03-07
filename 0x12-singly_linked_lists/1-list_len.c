@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
+ * list_len - main function
+ *@h: variable for head node
  *
- *
- *
- *
+ * Return: index
  */
 
 size_t list_len(const list_t *h)
