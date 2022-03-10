@@ -3,7 +3,7 @@
 /**
  * sum_listin - sums two nodes
  * @head: head node
- * 
+ *
  * Return: sum
  */
 
