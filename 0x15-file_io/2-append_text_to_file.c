@@ -19,14 +19,15 @@ int _strlen(char *str)
  * append_text_to_file - appends text to file
  * @filename: pointer measuring to the filename
  *  @text_content: pointer to the text content of said filename
+ *  Return: -1 if not filename, descriptor, 1 if cnot text content, otherwise 1
  */
 
 int append_text_to_file(const char *filename, char *text_content)
 {
-	
+
 	int descriptor;
 	int _write;
-	
+
 	if (!filename)
 		return (-1);
 
@@ -45,6 +46,6 @@ int append_text_to_file(const char *filename, char *text_content)
 		close(descriptor);
 		return (-1);
 	}
-	close (descriptor);
+	close(descriptor);
 	return (1);
 }
